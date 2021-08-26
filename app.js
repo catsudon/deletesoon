@@ -42,7 +42,7 @@ function notify(n)
 {
   for(i=n;i>=1;i--) if(vst[i]) return 0;
   vst[n] = 60;
-  var name = "sounds/" + n + ".m4a";
+  var name = "sounds/" + n + ".wav";
   console.log(name);
   var audio = new Audio(name);
   audio.play();
